@@ -1,0 +1,114 @@
+  *       {
+        margin: 0px;
+        box-sizing: border-box;
+        
+    }
+    .main{
+        background-color: #0D4715;
+        color: aliceblue;
+        /* display: inline-block; */
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        /* gap: 300px; */
+        align-items: center;
+        height: 40px;
+    }
+    .left{
+        margin-left: 5px;
+    }
+
+    .center{
+        display: flex;
+        gap: 20px;
+    }
+
+    .button {
+        
+        margin-left : 20px;   
+
+    }
+
+    /* #image{
+        margin-top: 100px;
+        margin-left: 900px;
+    }
+     */
+    .hero-section{
+        background-color: #F1F0E9;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #h1-text {
+        background-color: #41644A;
+        color: white;
+        background-color: #41644A;
+
+
+    }
+
+    .button2 {
+        border-color: rgb(40, 62, 5) ;
+        border-style: dotted;
+        border-radius: 10px ;
+        font-size: medium;
+        background-color: #41644A;
+        color: rgb(255, 255, 255);
+       
+    }
+
+    .button2:hover {
+        background-color: rgb(158, 161, 160);
+    }
+
+
+    .about-us{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F1F0E9;
+
+    }
+
+    #lizard-desc{
+        font-size: 20px;
+
+    }
+
+    .products {
+        background-color: #F1F0E9;
+        height: 350px;
+        width: 350px;
+
+    }
+
+    #phone-case-image {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    #product-desc{
+        background-color: #F1F0E9;
+        
+    }
+   
+    #buy-button{
+        background-color: #41644A; 
+        color: white;
+        border-radius: 20px;
+    }
+     #buy-button:hover{
+        background-color: rgb(158, 161, 160); 
+     }
+
+     .products-section{
+
+        display:flex;
+        justify-content: space-around;  
+
+     }
+
