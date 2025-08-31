@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookshop</title>
     <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="https://kit.fontawesome.com/b71edfbd95.js" crossorigin="anonymous"></script>
+
+
   </head>
   <style></style>
   <body>
@@ -14,7 +17,7 @@
         <img src="uploads/logo.png" alt="logo" height="50px" />
       </div>
       <div class="center">
-        <a> Home </a>
+        <a> <i class="fa-solid fa-house"></i> Home </a>
         <a> About us </a>
         <a> Blog </a>
         <a> Contact </a>
@@ -172,14 +175,14 @@
       <div id="form">
         <label for="name"> Name:</label>
         <br>
-        <input type="text" id ="name" placeholder="Type your name" >
+        <input type="text" class ="input" placeholder="Type your name" >
         <p id="name-message" style="color:red; font-size:16px;">  </p>
 
         <br>
         <br>
         <label for="email"> Email:</label>
         <br>
-        <input type="text" id ="email" placeholder="name@gmail.com" >
+        <input type="text" class ="input" placeholder="name@gmail.com" >
         <p id="email-message" style="color:red; font-size:16px;">  </p>
 
         <br>
@@ -189,7 +192,7 @@
         <label for="usage" style="padding: 5px;"> Usage: </label>
 
         <div> 
-        <input type="text" id ="usage" placeholder="usage"  >
+        <input type="text" class ="input" placeholder="usage"  >
         <p id="usage-message" style="color:red; font-size:16px;"> </p>
         </div>
         
@@ -206,6 +209,7 @@
       </div>
 
     </div>
+    </div>
 
     <!-- <section style="background-color: #d8e09e;">
       <p id="text" style="padding-left: 30px;"> Hello world !</p>
@@ -217,7 +221,15 @@
 
     </section> -->
 
+
+    
+  <button id ="btn" onclick="myFunction()"
+  style="background-color: green; color: white; padding:10px; margin: 30px; border:none; "> Click me</button>
+
+     <p style ="margin-left: 40px;" id="output"></p>
     </body>
+
+
   
     <footer class="footer">
       <div id="about-footer" style="width: 300px;">

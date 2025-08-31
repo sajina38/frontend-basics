@@ -53,3 +53,60 @@ function validate(){
 }
 
 
+a = [1,2,3,4,5]
+
+for (let i=0; i<a.length; i++){
+    console.log(a[i])
+}
+
+let Student = {
+    name: "Saroj",
+    age:"20"
+}
+
+console.log(Student.name)
+
+
+
+
+// printMessage(){
+//     let textMessage = document.getElementById("text");
+//     textMessage.innerHTML = "Button was clicked!";
+// }
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let doubled = numbers.map
+// (function(num) {
+//   return num * 2;
+// });
+
+// console.log(doubled);   
+// console.log(numbers);
+
+
+// let numbers = [1, 2, 3, 4, 5];
+// let squared = numbers.map(num)
+
+//     (function myFunction(num) {
+//       return num * num;
+//     });
+
+    
+//     document.getElementById("output").innerHTML = squared;
+
+
+function myFunction (){
+
+    let numbers = [1,2,3,4,5]
+    let squared = numbers.map(function(num){
+        return num * num
+    }
+    
+    )
+    
+    console.log(squared)
+    
+    document.getElementById("output").innerHTML = squared;
+}
