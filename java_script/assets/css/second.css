@@ -1,0 +1,21 @@
+/* base button */
+.btn {
+  color: white;
+  padding: 10px;
+  border: 3px solid transparent;   /* prevents layout shift on hover */
+  cursor: pointer;
+}
+
+/* variants */
+.btn--green { background-color: green; }
+.btn--red   { background-color: rgb(121, 22, 22); }
+.btn--blue {background-color: blue;}
+.btn--yellow {background-color: rgb(109, 123, 0);}
+.btn--black {background-color: rgb(0, 0, 0);}
+
+
+.btn:hover {
+  background-color: rgb(192, 208, 221);
+  
+  color: black;                     /* optional for contrast on light bg */
+}

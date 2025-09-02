@@ -226,8 +226,10 @@
 }
 
 .input {
+    background-color: #ffffff;
     border-radius: 10px;
-    border: none;
+    border-color: hsl(0, 72%, 39%);
+    border: 1px solid;
     padding: 13px;
     margin-top: 5px;;
 }
